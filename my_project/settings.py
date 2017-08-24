@@ -25,7 +25,9 @@ SECRET_KEY = '6wju!8%&u*zya-!51m0&=3&s9%n!v^0)zpw^v2@^+(8z1d4%&7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'python-name-xl-p2.1d35.starter-us-east-1.openshiftapps.com'
+]
 
 
 # Application definition
