@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     'python-name-xl-p2.1d35.starter-us-east-1.openshiftapps.com',
-    'xl.forever.love',
 ]
 
 
