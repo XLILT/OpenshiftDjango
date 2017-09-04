@@ -6,7 +6,7 @@
 
 		<link rel='stylesheet' href='/static/lib/bootstrap-3.3.6/css/bootstrap.min.css'>
 		<link rel='stylesheet' href='/static/css/index.css'>
-		<script lang="javascript" src="/static/js/index.js"></script>
+		<script lang="javascript" src="/static/lib/jquery/jquery-1.12.0.js"></script>
 	</head>
 	<body>
 		<div class="all-wrapper">
@@ -14,37 +14,34 @@
 				<nav class="navbar navbar-default">
 					<div class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="#">登陆</a></li>
+							<li class="active"><a href="#">登陆</a></li>
 							<li><a href="#">注册</a></li>
 						</ul>
 					</div>
 				</nav>
 			</div>
 			<div class="App container">
-				<div>
-					<form class="form-signin">
-						<label class="sr-only">账号</label>
-						<input type="email" id="inputEmail" class="form-control" placeholder="账号"/>
-						<label class="sr-only">密码</label>
-						<input type="password" id="inputPassword" class="form-control" placeholder="密码"/>
-						<div class="checkbox">
-							<label>
-								<input type="checkbox" value="remember-me" /> 记住我                                                                                                                                                              
-							</label>
-						</div>
-						<button class="btn btn-lg btn-primary btn-block" type="submit">登陆</button>
-					</form>
-				</div>
-				<div class="hide">
-					<form class="form-registry">
-						<label class="sr-only">账号</label>
-						<input type="email" id="inputEmailRegistry" class="form-control" placeholder="账号"/>
-						<label class="sr-only">密码</label>
-						<input type="password" id="inputPasswordRegistry" class="form-control" placeholder="密码"/>
-						<button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
-					</form>
-				</div>
+				<form class="form-signin">
+					<label class="sr-only">账号</label>
+					<input type="email" id="inputEmail" class="form-control" placeholder="账号"/>
+					<label class="sr-only">密码</label>
+					<input type="password" id="inputPassword" class="form-control" placeholder="密码"/>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="remember-me" /> 记住我                                                                                                                                                              
+						</label>
+					</div>
+					<button class="btn btn-lg btn-primary btn-block" type="submit">登陆</button>
+				</form>
+				<form class="form-registry hide">
+					<label class="sr-only">账号</label>
+					<input type="email" id="inputEmailRegistry" class="form-control" placeholder="账号"/>
+					<label class="sr-only">密码</label>
+					<input type="password" id="inputPasswordRegistry" class="form-control" placeholder="密码"/>
+					<button class="btn btn-lg btn-primary btn-block" type="submit">注册</button>
+				</form>
 			</div>		
 		</div>
+		<script lang="javascript" src="/static/js/index.js"></script>
 	</body>
 </html>
