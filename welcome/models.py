@@ -4,4 +4,4 @@ from django.db import models
 
 class message(models.Model):
     username = models.CharField(max_length=20)
-    password = modelsCharField(max_length=15).
+    password = modelsCharField(max_length=15)
